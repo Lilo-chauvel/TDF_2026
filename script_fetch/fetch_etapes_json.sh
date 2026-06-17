@@ -11,7 +11,7 @@ import urllib.request
 import urllib.error
 
 BASE_URL = "https://www.letour.fr/fr"
-OUT_DIR = "/home/chauvel/Documents/dev/Titre_pro_CCP1/TDF2026/detail-etapes"
+OUT_DIR = "/home/chauvel/detail-etapes"
 
 # Créer le dossier s'il n'existe pas
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -107,4 +107,4 @@ def main():
     print("TerminÃ©!")
 
 if __name__ == "__main__":
-    main()
+    main()~
