@@ -12,6 +12,15 @@ body {
     background-color: #fff;
 }
 
+/* Ensure superscript 'e' appears in lowercase */
+sup {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    vertical-align: super;
+    font-size: 0.6em;
+    line-height: 0;
+    text-transform: none;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Bebas Neue', Arial, sans-serif;
     font-weight: 700;
