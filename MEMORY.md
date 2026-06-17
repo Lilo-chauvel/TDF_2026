@@ -1,0 +1,1 @@
+- [Workflow Commit Instruction](memory/workflow-commit-instruction.md) — hook
