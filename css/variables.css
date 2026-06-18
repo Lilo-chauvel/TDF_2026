@@ -1,130 +1,26 @@
-/* CSS Variables - Global Styles */
+:root{
+  /* couleurs principales */
+  --yellow:#F5C518;
+  --yellow-dark:#D9A60E;
+  --black:#121212;
+  --near-black:#171717;
+  --card-dark:#1f1f1f;
+  --gray-bg:#F2F1EE;
+  --gray-sober-bg:#474747;
 
-/* Couleurs */
-:root {
-    /* Couleurs principales */
-    --color-primary: #FFC107;
-    --color-primary-dark: #e0a800;
-    --color-primary-light: #ffd54f;
-    --color-charcoal: #0D0D0D;
+  /* texte */
+  --text-dark:#161616;
+  --text-gray:#5b5b5b;
+  --text-light-gray:#9a9a9a;
+  --border-light:#e6e4df;
 
-    /* Couleurs de texte */
-    --color-text-primary: #333;
-    --color-text-secondary: #666;
-    --color-text-light: #999;
-    --color-text-white: #fff;
-    --color-text-black: #000;
-    --color-text-accent: #34495e;
-    --color-text-error: #e74c3c;
+  /* badges de type d'étape */
+  --green-bg:#dff3da;  --green-text:#2e7d32;
+  --orange-bg:#fbe5d2; --orange-text:#b5571f;
+  --red-bg:#fbdedd;    --red-text:#c62828;
+  --purple-bg:#e7defa; --purple-text:#6a3fc7;
+  --blue-bg:#dceafd;   --blue-text:#1c64d1;;
 
-    /* Couleurs de fond */
-    --color-bg-primary: #fff;
-    --color-bg-secondary: #f8f8f8;
-    --color-bg-tertiary: #f8f9fa;
-    --color-bg-dark: #000;
-
-    /* Couleurs de bordure */
-    --color-border-primary: #eee;
-    --color-border-accent: rgba(255, 193, 7, 0.3);
-
-    /* Couleurs de gradient */
-    --color-gradient-overlay: rgba(0, 0, 0, 0.8);
-    --color-gradient-highlight: rgba(255, 255, 255, 0.2);
-
-    /* Opacités */
-    --opacity-20: rgba(255, 193, 7, 0.2);
-    --opacity-30: rgba(255, 193, 7, 0.3);
-    --opacity-40: rgba(255, 193, 7, 0.4);
-    --opacity-70: rgba(255, 255, 255, 0.7);
-    --opacity-80: rgba(255, 255, 255, 0.8);
-
-    /* Typographie */
-    --font-primary: 'Bebas Neue', Arial, sans-serif;
-    --font-secondary: 'Inter', Arial, sans-serif;
-
-    /* Tailles de police */
-    --fs-h1: 3.5rem;
-    --fs-h2: 2.5rem;
-    --fs-h3: 1.8rem;
-    --fs-h4: 1.5rem;
-    --fs-body: 1.1rem;
-    --fs-btn: 1.2rem;
-    --fs-hero-h1: 4rem;
-    --fs-hero-p: 1.8rem;
-    --fs-badge: 1rem;
-    --fs-stat: 3rem;
-    --fs-label: 1.2rem;
-    --fs-caption: 0.9rem;
-
-    /* Tailles de police pour mobile */
-    --fs-h1-mobile: 2.8rem;
-    --fs-h2-mobile: 2rem;
-    --fs-h3-mobile: 1.6rem;
-    --fs-hero-h1-mobile: 2.8rem;
-    --fs-hero-p-mobile: 1.5rem;
-    --fs-btn-mobile: 1.1rem;
-    --fs-stat-mobile: 2.5rem;
-    --fs-label-mobile: 1rem;
-
-    /* Tailles de police pour mobile ultra */
-    --fs-h1-ultra-mobile: 2.2rem;
-    --fs-h2-ultra-mobile: 1.8rem;
-    --fs-hero-h1-ultra-mobile: 2.2rem;
-    --fs-hero-p-ultra-mobile: 1.3rem;
-    --fs-btn-ultra-mobile: 1rem;
-    --fs-label-ultra-mobile: 0.8rem;
-
-    /* Espacements */
-    --spacing-xs: 5px;
-    --spacing-sm: 10px;
-    --spacing-md: 20px;
-    --spacing-lg: 30px;
-    --spacing-xl: 40px;
-    --spacing-2xl: 80px;
-
-    /* Rayons de bordure */
-    --radius-xs: 5px;
-    --radius-sm: 8px;
-    --radius-md: 10px;
-    --radius-lg: 30px;
-    --radius-xl: 50px;
-
-    /* Ombres */
-    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
-    --shadow-md: 0 5px 15px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.1);
-    --shadow-xl: 0 12px 25px rgba(255, 193, 7, 0.4);
-
-    /* Transitions */
-    --transition-fast: 0.3s ease;
-    --transition-slow: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-
-    /* Animations */
-    --bounce-duration: 2s;
-
-    /* Largeurs */
-    --container-width: 90%;
-    --container-max-width: 1200px;
-    --max-content-width: 800px;
-    --max-content-width-lg: 900px;
-
-    /* Tailles de bouton */
-    --btn-padding: 12px 30px;
-    --btn-padding-mobile: 10px 25px;
-    --btn-padding-ultra-mobile: 8px 20px;
-
-    /* Tailles d'image */
-    --icon-size: 24px;
-}
-
-/* Variables pour les thèmes sombres */
-[data-theme="dark"] {
-    --color-bg-primary: #121212;
-    --color-bg-secondary: #1e1e1e;
-    --color-bg-tertiary: #2a2a2a;
-    --color-text-primary: #f0f0f0;
-    --color-text-secondary: #cccccc;
-    --color-text-light: #999999;
-    --color-text-accent: #e0e0e0;
-    --color-border-primary: #333333;
+  /* layout */
+  --max-w:1100px;
 }
