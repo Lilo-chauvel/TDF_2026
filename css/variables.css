@@ -6,6 +6,7 @@
     --color-primary: #FFC107;
     --color-primary-dark: #e0a800;
     --color-primary-light: #ffd54f;
+    --color-charcoal: #0D0D0D;
 
     /* Couleurs de texte */
     --color-text-primary: #333;
@@ -39,7 +40,7 @@
 
     /* Typographie */
     --font-primary: 'Bebas Neue', Arial, sans-serif;
-    --font-secondary: Arial, sans-serif;
+    --font-secondary: 'Inter', Arial, sans-serif;
 
     /* Tailles de police */
     --fs-h1: 3.5rem;

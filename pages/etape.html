@@ -2,61 +2,125 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Étape du Tour de France 2026</title>
-    <link rel="icon" href="/assets/icons/logo_tdf.png" sizes="16x16">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tour de France 2026 - Étape <span id="etape-num">X</span></title>
+<link rel="icon" href="/assets/icons/logo_tdf.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body class="etape-page">
-    <header>
-        <h1>Étape du Tour de France 2026</h1>
-        <a href="/index.html" class="back-link">← Retour à la frise</a>
-    </header>
+<!-- Bandeau supérieur (style maquette) -->
+<div class="masthead">
+<div class="masthead-inner container">
+<div class="masthead-logo">
+<img src="/assets/icons/logo_tdf.png" alt="Logo Tour de France 2026" height="48">
+</div>
+<div class="masthead-tag">
+TOUR DE FRANCE 2026
+</div>
+</div>
+</div>
 
-    <main class="etape-detail">
-        <div class="etape-header">
-            <h2>Étape <span id="etape-num">...</span></h2>
-            <p id="date">...</p>
-        </div>
+<!-- Lien retour -->
+<header>
+<a href="/index.html" class="back-link">← Retour à l'accueil</a>
+</header>
 
-        <div class="etape-info">
-            <div class="etape-location">
-                <h3>Départ</h3>
-                <p id="depart">...</p>
-            </div>
+<!-- Contenu principal -->
+<main class="etape-detail container">
+<!-- Titre et date de l'étape -->
+<div class="etape-header">
+<h1>Étape <span id="etape-num">X</span></h1>
+<p id="date">...</p>
+</div>
 
-            <div class="etape-arrow">
-                <span>→</span>
-            </div>
+<!-- Villes de départ et arrivée -->
+<div class="etape-info">
+<div class="etape-location">
+<div class="flag">
+<img src="/assets/icons/flag_france.png" alt="Drapeau France" width="24">
+</div>
+<h3>Départ</h3>
+<p id="depart">...</p>
+</div>
 
-            <div class="etape-location">
-                <h3>Arrivée</h3>
-                <p id="arrivee">...</p>
-            </div>
-        </div>
+<div class="etape-arrow">
+<span>→</span>
+</div>
 
-        <div class="etape-stats">
-            <p><strong>Distance :</strong> <span id="distance">...</span></p>
-            <p><strong>Type :</strong> <span id="type">...</span></p>
-        </div>
+<div class="etape-location">
+<div class="flag">
+<img src="/assets/icons/flag_france.png" alt="Drapeau France" width="24">
+</div>
+<h3>Arrivée</h3>
+<p id="arrivee">...</p>
+</div>
+</div>
 
-        <div class="etape-error">
-            ❌ Étape non trouvée ou données indisponibles.
-        </div>
-    </main>
+<!-- Distance et type -->
+<div class="etape-stats">
+<p><strong>Distance :</strong> <span id="distance">...</span> km</p>
+<p><strong>Type :</strong> <span id="type">...</span></p>
+</div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Projet de mémoire Tour de France 2026 - Panitech Academy</p>
-        </div>
-    </footer>
+<!-- Profil altimétrique -->
+<div class="profile-section">
+<h3>Profil de l'étape</h3>
+<div class="profile-placeholder">
+<img src="/assets/images/profil_etape_placeholder.png" alt="Profil altimétrique de l'étape" style="width: 100%; max-width: 800px; height: auto;">
+</div>
+</div>
 
-    <script src="../js/script-etape.js"></script>
+<!-- Ascensions -->
+<div class="climbs-section">
+<h3>Ascensions</h3>
+<div class="climbs-list" id="climbs">
+<p>Aucune ascension répertoriée.</p>
+</div>
+</div>
+
+<!-- Météo -->
+<div class="weather-section">
+<h3>Météo prévue</h3>
+<div class="weather-info" id="weather">
+<p>Données météo non disponibles.</p>
+</div>
+</div>
+
+<!-- Podium -->
+<div class="podium-section">
+<h3>Podium</h3>
+<div class="podium" id="podium">
+<p>Aucun résultat disponible.</p>
+</div>
+</div>
+
+<!-- Classements -->
+<div class="classification-section">
+<h3>Classements</h3>
+<div class="classifications" id="classifications">
+<p>Aucun classement disponible.</p>
+</div>
+</div>
+
+<!-- Erreur -->
+<div class="etape-error" style="display: none;">
+❌ Étape non trouvée ou données indisponibles.
+</div>
+</main>
+
+<!-- Footer -->
+<footer>
+<div class="container">
+<p>&copy; 2026 Projet de mémoire Tour de France 2026 - Panitech Academy</p>
+</div>
+</footer>
+
+<!-- Script (inactif pour l'instant) -->
+<script src="../js/script-etape.js" defer></script>
 </body>
 
 </html>
