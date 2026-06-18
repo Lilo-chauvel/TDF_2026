@@ -1,23 +1,1533 @@
 [
-  { "etape": "1", "date": "27/06/2026", "depart": "Barcelone", "arrivee": "Barcelone", "distance": "165 km", "type": "Plat" },
-  { "etape": "2", "date": "28/06/2026", "depart": "Barcelone", "arrivee": "Lleida", "distance": "182 km", "type": "Plat" },
-  { "etape": "3", "date": "29/06/2026", "depart": "Lleida", "arrivee": "Andorre la Vella", "distance": "165 km", "type": "Montagne" },
-  { "etape": "4", "date": "30/06/2026", "depart": "Andorre la Vella", "arrivee": "Saint-Gaudens", "distance": "184 km", "type": "Montagne" },
-  { "etape": "5", "date": "01/07/2026", "depart": "Saint-Gaudens", "arrivee": "Saint-Lary Soulan", "distance": "165 km", "type": "Montagne" },
-  { "etape": "6", "date": "02/07/2026", "depart": "Saint-Lary Soulan", "arrivee": "Pau", "distance": "160 km", "type": "Montagne" },
-  { "etape": "7", "date": "03/07/2026", "depart": "Pau", "arrivee": "La Mongie", "distance": "168 km", "type": "Montagne" },
-  { "etape": "8", "date": "04/07/2026", "depart": "La Mongie", "arrivee": "Saint-Étienne", "distance": "328 km", "type": "Montagne" },
-  { "etape": "9", "date": "05/07/2026", "depart": "Saint-Étienne", "arrivee": "Saint-Étienne", "distance": "172 km", "type": "Plat" },
-  { "etape": "10", "date": "06/07/2026", "depart": "Saint-Étienne", "arrivee": "Le Puy-en-Velay", "distance": "158 km", "type": "Montagne" },
-  { "etape": "11", "date": "07/07/2026", "depart": "Le Puy-en-Velay", "arrivee": "Saint-Étienne", "distance": "170 km", "type": "Plat" },
-  { "etape": "12", "date": "08/07/2026", "depart": "Saint-Étienne", "arrivee": "La Plagne", "distance": "215 km", "type": "Montagne" },
-  { "etape": "13", "date": "09/07/2026", "depart": "La Plagne", "arrivee": "La Plagne", "distance": "170 km", "type": "Plat" },
-  { "etape": "14", "date": "10/07/2026", "depart": "La Plagne", "arrivee": "Le Grand-Bornand", "distance": "150 km", "type": "Montagne" },
-  { "etape": "15", "date": "11/07/2026", "depart": "Le Grand-Bornand", "arrivee": "Colmar", "distance": "220 km", "type": "Plat" },
-  { "etape": "16", "date": "12/07/2026", "depart": "Colmar", "arrivee": "Colmar", "distance": "180 km", "type": "Plat" },
-  { "etape": "17", "date": "13/07/2026", "depart": "Colmar", "arrivee": "Strasbourg", "distance": "175 km", "type": "Plat" },
-  { "etape": "18", "date": "14/07/2026", "depart": "Strasbourg", "arrivee": "Metz", "distance": "200 km", "type": "Plat" },
-  { "etape": "19", "date": "15/07/2026", "depart": "Metz", "arrivee": "Chaumont", "distance": "185 km", "type": "Plat" },
-  { "etape": "20", "date": "16/07/2026", "depart": "Chaumont", "arrivee": "Lausanne", "distance": "210 km", "type": "Plat" },
-  { "etape": "21", "date": "19/07/2026", "depart": "Paris", "arrivee": "Paris", "distance": "120 km", "type": "Plat" }
+  {
+    "etape": "1",
+    "date": "27/06/2026",
+    "depart": "Barcelone",
+    "arrivee": "Barcelone",
+    "distance": "165 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Deceuninck",
+      "time": "4:23:15"
+    },
+    "podium": [
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 1
+      },
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 2
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "time": "4:23:15"
+      },
+      "points": {
+        "leader": "Jasper Philipsen",
+        "points": 50
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 20
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:24:12"
+      }
+    },
+    "profile": {
+      "elevation_gain": 1250,
+      "climbs": [
+        {
+          "name": "Montjuïc",
+          "category": "Cat 2",
+          "distance": 145.2,
+          "gradient": 7.8,
+          "length": 2.1
+        }
+      ],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 28,
+      "wind": "SE 10 km/h"
+    },
+    "average_speed": 38.2,
+    "time_gap": "0:00:00",
+    "start_time": "12:30",
+    "finish_time": "16:53"
+  },
+  {
+    "etape": "2",
+    "date": "28/06/2026",
+    "depart": "Barcelone",
+    "arrivee": "Lleida",
+    "distance": "182 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Dylan Groenewegen",
+      "team": "BikeExchange-Jayco",
+      "time": "4:18:42"
+    },
+    "podium": [
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 1
+      },
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 2
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "time": "4:18:42"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 80
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 20
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:22:30"
+      }
+    },
+    "profile": {
+      "elevation_gain": 450,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Partly cloudy",
+      "temperature": 26,
+      "wind": "E 15 km/h"
+    },
+    "average_speed": 42.1,
+    "time_gap": "0:00:00",
+    "start_time": "12:15",
+    "finish_time": "16:34"
+  },
+  {
+    "etape": "3",
+    "date": "29/06/2026",
+    "depart": "Lleida",
+    "arrivee": "Andorre la Vella",
+    "distance": "165 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates",
+      "time": "4:45:23"
+    },
+    "podium": [
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 1
+      },
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:45:23"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 80
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 55
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:47:15"
+      }
+    },
+    "profile": {
+      "elevation_gain": 3200,
+      "climbs": [
+        {
+          "name": "Coll de la Creueta",
+          "category": "Cat 1",
+          "distance": 112.5,
+          "gradient": 7.2,
+          "length": 4.8
+        },
+        {
+          "name": "Port d'Envalira",
+          "category": "Hors Catégorie",
+          "distance": 158.7,
+          "gradient": 6.8,
+          "length": 14.2
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Clear",
+      "temperature": 18,
+      "wind": "NW 20 km/h"
+    },
+    "average_speed": 34.5,
+    "time_gap": "0:00:00",
+    "start_time": "11:45",
+    "finish_time": "16:30"
+  },
+  {
+    "etape": "4",
+    "date": "30/06/2026",
+    "depart": "Andorre la Vella",
+    "arrivee": "Saint-Gaudens",
+    "distance": "184 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Jonas Vingegaard",
+      "team": "Jumbo-Visma",
+      "time": "5:02:18"
+    },
+    "podium": [
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 1
+      },
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "time": "5:02:18"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 80
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 55
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "5:04:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 4100,
+      "climbs": [
+        {
+          "name": "Col de la Llupià",
+          "category": "Cat 1",
+          "distance": 125.3,
+          "gradient": 8.1,
+          "length": 5.2
+        },
+        {
+          "name": "Col de la Port",
+          "category": "Cat 2",
+          "distance": 158.4,
+          "gradient": 6.5,
+          "length": 4.1
+        },
+        {
+          "name": "Col de la Portet",
+          "category": "Hors Catégorie",
+          "distance": 182.7,
+          "gradient": 7.8,
+          "length": 12.3
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 20,
+      "wind": "NW 15 km/h"
+    },
+    "average_speed": 36.1,
+    "time_gap": "0:00:00",
+    "start_time": "11:30",
+    "finish_time": "16:32"
+  },
+  {
+    "etape": "5",
+    "date": "01/07/2026",
+    "depart": "Saint-Gaudens",
+    "arrivee": "Saint-Lary Soulan",
+    "distance": "165 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates",
+      "time": "4:35:12"
+    },
+    "podium": [
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 1
+      },
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:35:12"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 80
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 85
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:37:08"
+      }
+    },
+    "profile": {
+      "elevation_gain": 3500,
+      "climbs": [
+        {
+          "name": "Col de la Core",
+          "category": "Cat 1",
+          "distance": 120.5,
+          "gradient": 7.5,
+          "length": 5.1
+        },
+        {
+          "name": "Col de la Pierre Saint-Martin",
+          "category": "Cat 2",
+          "distance": 145.8,
+          "gradient": 6.8,
+          "length": 4.7
+        },
+        {
+          "name": "Col de Portet",
+          "category": "Hors Catégorie",
+          "distance": 160.2,
+          "gradient": 8.2,
+          "length": 14.8
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 19,
+      "wind": "NW 10 km/h"
+    },
+    "average_speed": 35.8,
+    "time_gap": "0:00:00",
+    "start_time": "11:40",
+    "finish_time": "16:15"
+  },
+  {
+    "etape": "6",
+    "date": "02/07/2026",
+    "depart": "Saint-Lary Soulan",
+    "arrivee": "Pau",
+    "distance": "160 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Jonas Vingegaard",
+      "team": "Jumbo-Visma",
+      "time": "4:28:37"
+    },
+    "podium": [
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 1
+      },
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "time": "4:28:37"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 80
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 85
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:30:24"
+      }
+    },
+    "profile": {
+      "elevation_gain": 2800,
+      "climbs": [
+        {
+          "name": "Col d'Aubisque",
+          "category": "Hors Catégorie",
+          "distance": 125.6,
+          "gradient": 7.1,
+          "length": 16.8
+        },
+        {
+          "name": "Col du Soulor",
+          "category": "Cat 1",
+          "distance": 145.3,
+          "gradient": 6.5,
+          "length": 8.2
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Partly cloudy",
+      "temperature": 22,
+      "wind": "SW 12 km/h"
+    },
+    "average_speed": 37.2,
+    "time_gap": "0:00:00",
+    "start_time": "11:35",
+    "finish_time": "16:04"
+  },
+  {
+    "etape": "7",
+    "date": "03/07/2026",
+    "depart": "Pau",
+    "arrivee": "La Mongie",
+    "distance": "168 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates",
+      "time": "4:55:21"
+    },
+    "podium": [
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 1
+      },
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:55:21"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 80
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 115
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:57:18"
+      }
+    },
+    "profile": {
+      "elevation_gain": 3900,
+      "climbs": [
+        {
+          "name": "Col du Tourmalet",
+          "category": "Hors Catégorie",
+          "distance": 120.5,
+          "gradient": 7.9,
+          "length": 17.1
+        },
+        {
+          "name": "Col d'Aspin",
+          "category": "Cat 1",
+          "distance": 145.8,
+          "gradient": 6.5,
+          "length": 8.3
+        },
+        {
+          "name": "Col de Peyresourde",
+          "category": "Cat 1",
+          "distance": 165.2,
+          "gradient": 6.8,
+          "length": 8.5
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 21,
+      "wind": "NW 15 km/h"
+    },
+    "average_speed": 35.1,
+    "time_gap": "0:00:00",
+    "start_time": "11:20",
+    "finish_time": "16:15"
+  },
+  {
+    "etape": "8",
+    "date": "04/07/2026",
+    "depart": "La Mongie",
+    "arrivee": "Saint-Étienne",
+    "distance": "328 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Jonas Vingegaard",
+      "team": "Jumbo-Visma",
+      "time": "7:15:42"
+    },
+    "podium": [
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 1
+      },
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "time": "7:15:42"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 80
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 115
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "7:18:25"
+      }
+    },
+    "profile": {
+      "elevation_gain": 5800,
+      "climbs": [
+        {
+          "name": "Col de la Croix de Fer",
+          "category": "Hors Catégorie",
+          "distance": 180.3,
+          "gradient": 7.2,
+          "length": 22.5
+        },
+        {
+          "name": "Col du Lautaret",
+          "category": "Hors Catégorie",
+          "distance": 220.8,
+          "gradient": 6.8,
+          "length": 14.8
+        },
+        {
+          "name": "Col du Galibier",
+          "category": "Hors Catégorie",
+          "distance": 260.5,
+          "gradient": 7.5,
+          "length": 18.2
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 18,
+      "wind": "NW 20 km/h"
+    },
+    "average_speed": 45.6,
+    "time_gap": "0:00:00",
+    "start_time": "8:00",
+    "finish_time": "15:15"
+  },
+  {
+    "etape": "9",
+    "date": "05/07/2026",
+    "depart": "Saint-Étienne",
+    "arrivee": "Saint-Étienne",
+    "distance": "172 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Caleb Ewan",
+      "team": "Lotto Dstny",
+      "time": "4:05:28"
+    },
+    "podium": [
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 1
+      },
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 2
+      },
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "time": "7:15:42"
+      },
+      "points": {
+        "leader": "Caleb Ewan",
+        "points": 130
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 115
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "7:18:25"
+      }
+    },
+    "profile": {
+      "elevation_gain": 300,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Partly cloudy",
+      "temperature": 24,
+      "wind": "S 10 km/h"
+    },
+    "average_speed": 45.1,
+    "time_gap": "0:00:00",
+    "start_time": "12:00",
+    "finish_time": "16:05"
+  },
+  {
+    "etape": "10",
+    "date": "06/07/2026",
+    "depart": "Saint-Étienne",
+    "arrivee": "Le Puy-en-Velay",
+    "distance": "158 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates",
+      "time": "4:22:15"
+    },
+    "podium": [
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 1
+      },
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:22:15"
+      },
+      "points": {
+        "leader": "Caleb Ewan",
+        "points": 130
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 145
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:24:02"
+      }
+    },
+    "profile": {
+      "elevation_gain": 2900,
+      "climbs": [
+        {
+          "name": "Col du Béal",
+          "category": "Cat 1",
+          "distance": 125.3,
+          "gradient": 7.5,
+          "length": 6.8
+        },
+        {
+          "name": "Col de la Croix de Mounis",
+          "category": "Cat 2",
+          "distance": 145.8,
+          "gradient": 6.8,
+          "length": 5.2
+        },
+        {
+          "name": "Col de la Croix de la Serre",
+          "category": "Cat 1",
+          "distance": 155.2,
+          "gradient": 8.1,
+          "length": 4.5
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 22,
+      "wind": "W 15 km/h"
+    },
+    "average_speed": 38.1,
+    "time_gap": "0:00:00",
+    "start_time": "11:30",
+    "finish_time": "15:52"
+  },
+  {
+    "etape": "11",
+    "date": "07/07/2026",
+    "depart": "Le Puy-en-Velay",
+    "arrivee": "Saint-Étienne",
+    "distance": "170 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Deceuninck",
+      "time": "4:12:35"
+    },
+    "podium": [
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 1
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 2
+      },
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:22:15"
+      },
+      "points": {
+        "leader": "Jasper Philipsen",
+        "points": 170
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 145
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:24:02"
+      }
+    },
+    "profile": {
+      "elevation_gain": 400,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 26,
+      "wind": "SW 10 km/h"
+    },
+    "average_speed": 42.3,
+    "time_gap": "0:00:00",
+    "start_time": "12:15",
+    "finish_time": "16:27"
+  },
+  {
+    "etape": "12",
+    "date": "08/07/2026",
+    "depart": "Saint-Étienne",
+    "arrivee": "La Plagne",
+    "distance": "215 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Jonas Vingegaard",
+      "team": "Jumbo-Visma",
+      "time": "6:15:48"
+    },
+    "podium": [
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 1
+      },
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "time": "6:15:48"
+      },
+      "points": {
+        "leader": "Jasper Philipsen",
+        "points": 170
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 145
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "6:18:25"
+      }
+    },
+    "profile": {
+      "elevation_gain": 4700,
+      "climbs": [
+        {
+          "name": "Col de la Madeleine",
+          "category": "Hors Catégorie",
+          "distance": 145.8,
+          "gradient": 7.5,
+          "length": 15.2
+        },
+        {
+          "name": "Col du Lautaret",
+          "category": "Hors Catégorie",
+          "distance": 190.3,
+          "gradient": 6.8,
+          "length": 14.8
+        },
+        {
+          "name": "Col du Galibier",
+          "category": "Hors Catégorie",
+          "distance": 220.5,
+          "gradient": 7.5,
+          "length": 18.2
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 20,
+      "wind": "NW 20 km/h"
+    },
+    "average_speed": 34.5,
+    "time_gap": "0:00:00",
+    "start_time": "8:30",
+    "finish_time": "14:45"
+  },
+  {
+    "etape": "13",
+    "date": "09/07/2026",
+    "depart": "La Plagne",
+    "arrivee": "La Plagne",
+    "distance": "170 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Dylan Groenewegen",
+      "team": "BikeExchange-Jayco",
+      "time": "4:08:12"
+    },
+    "podium": [
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 1
+      },
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 2
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "time": "6:15:48"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 210
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 145
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "6:18:25"
+      }
+    },
+    "profile": {
+      "elevation_gain": 200,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 24,
+      "wind": "S 15 km/h"
+    },
+    "average_speed": 44.2,
+    "time_gap": "0:00:00",
+    "start_time": "12:00",
+    "finish_time": "16:08"
+  },
+  {
+    "etape": "14",
+    "date": "10/07/2026",
+    "depart": "La Plagne",
+    "arrivee": "Le Grand-Bornand",
+    "distance": "150 km",
+    "type": "Montagne",
+    "winner": {
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates",
+      "time": "4:42:17"
+    },
+    "podium": [
+      {
+        "name": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "position": 1
+      },
+      {
+        "name": "Jonas Vingegaard",
+        "team": "Jumbo-Visma",
+        "position": 2
+      },
+      {
+        "name": "Remco Evenepoel",
+        "team": "Soudal Quick-Step",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:42:17"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 210
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 175
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:44:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 3600,
+      "climbs": [
+        {
+          "name": "Col du Lautaret",
+          "category": "Hors Catégorie",
+          "distance": 135.2,
+          "gradient": 6.8,
+          "length": 14.8
+        },
+        {
+          "name": "Col du Galibier",
+          "category": "Hors Catégorie",
+          "distance": 165.5,
+          "gradient": 7.5,
+          "length": 18.2
+        },
+        {
+          "name": "Col de la Croix de Fer",
+          "category": "Hors Catégorie",
+          "distance": 190.8,
+          "gradient": 7.2,
+          "length": 22.5
+        }
+      ],
+      "type": "Montagne"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 18,
+      "wind": "NW 15 km/h"
+    },
+    "average_speed": 36.1,
+    "time_gap": "0:00:00",
+    "start_time": "11:00",
+    "finish_time": "15:42"
+  },
+  {
+    "etape": "15",
+    "date": "11/07/2026",
+    "depart": "Le Grand-Bornand",
+    "arrivee": "Colmar",
+    "distance": "220 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Caleb Ewan",
+      "team": "Lotto Dstny",
+      "time": "4:55:28"
+    },
+    "podium": [
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 1
+      },
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 2
+      },
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:42:17"
+      },
+      "points": {
+        "leader": "Caleb Ewan",
+        "points": 260
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 175
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:44:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 1200,
+      "climbs": [
+        {
+          "name": "Col de la Croix de Mounis",
+          "category": "Cat 2",
+          "distance": 150.3,
+          "gradient": 4.2,
+          "length": 7.2
+        }
+      ],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Partly cloudy",
+      "temperature": 20,
+      "wind": "W 10 km/h"
+    },
+    "average_speed": 37.5,
+    "time_gap": "0:00:00",
+    "start_time": "11:45",
+    "finish_time": "16:40"
+  },
+  {
+    "etape": "16",
+    "date": "12/07/2026",
+    "depart": "Colmar",
+    "arrivee": "Colmar",
+    "distance": "180 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Deceuninck",
+      "time": "4:02:15"
+    },
+    "podium": [
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 1
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 2
+      },
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:42:17"
+      },
+      "points": {
+        "leader": "Jasper Philipsen",
+        "points": 300
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 175
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:44:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 150,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 23,
+      "wind": "S 12 km/h"
+    },
+    "average_speed": 45.8,
+    "time_gap": "0:00:00",
+    "start_time": "12:00",
+    "finish_time": "16:02"
+  },
+  {
+    "etape": "17",
+    "date": "13/07/2026",
+    "depart": "Colmar",
+    "arrivee": "Strasbourg",
+    "distance": "175 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Dylan Groenewegen",
+      "team": "BikeExchange-Jayco",
+      "time": "4:10:22"
+    },
+    "podium": [
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 1
+      },
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 2
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:42:17"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 340
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 175
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:44:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 200,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 21,
+      "wind": "SW 10 km/h"
+    },
+    "average_speed": 42.2,
+    "time_gap": "0:00:00",
+    "start_time": "12:15",
+    "finish_time": "16:25"
+  },
+  {
+    "etape": "18",
+    "date": "14/07/2026",
+    "depart": "Strasbourg",
+    "arrivee": "Metz",
+    "distance": "200 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Deceuninck",
+      "time": "4:15:38"
+    },
+    "podium": [
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 1
+      },
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 2
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:42:17"
+      },
+      "points": {
+        "leader": "Jasper Philipsen",
+        "points": 380
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 175
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:44:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 300,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Partly cloudy",
+      "temperature": 20,
+      "wind": "W 15 km/h"
+    },
+    "average_speed": 41.5,
+    "time_gap": "0:00:00",
+    "start_time": "12:00",
+    "finish_time": "16:15"
+  },
+  {
+    "etape": "19",
+    "date": "15/07/2026",
+    "depart": "Metz",
+    "arrivee": "Chaumont",
+    "distance": "185 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Caleb Ewan",
+      "team": "Lotto Dstny",
+      "time": "4:08:45"
+    },
+    "podium": [
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 1
+      },
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 2
+      },
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:42:17"
+      },
+      "points": {
+        "leader": "Caleb Ewan",
+        "points": 430
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 175
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:44:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 250,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 22,
+      "wind": "SW 10 km/h"
+    },
+    "average_speed": 43.1,
+    "time_gap": "0:00:00",
+    "start_time": "12:10",
+    "finish_time": "16:18"
+  },
+  {
+    "etape": "20",
+    "date": "16/07/2026",
+    "depart": "Chaumont",
+    "arrivee": "Lausanne",
+    "distance": "210 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Dylan Groenewegen",
+      "team": "BikeExchange-Jayco",
+      "time": "4:52:18"
+    },
+    "podium": [
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 1
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 2
+      },
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "4:42:17"
+      },
+      "points": {
+        "leader": "Dylan Groenewegen",
+        "points": 470
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 175
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "4:44:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 400,
+      "climbs": [
+        {
+          "name": "Col de la Croix",
+          "category": "Cat 3",
+          "distance": 180.5,
+          "gradient": 3.8,
+          "length": 4.2
+        }
+      ],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Partly cloudy",
+      "temperature": 19,
+      "wind": "NW 15 km/h"
+    },
+    "average_speed": 42.1,
+    "time_gap": "0:00:00",
+    "start_time": "11:45",
+    "finish_time": "16:37"
+  },
+  {
+    "etape": "21",
+    "date": "19/07/2026",
+    "depart": "Paris",
+    "arrivee": "Paris",
+    "distance": "120 km",
+    "type": "Plat",
+    "winner": {
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Deceuninck",
+      "time": "2:45:32"
+    },
+    "podium": [
+      {
+        "name": "Jasper Philipsen",
+        "team": "Alpecin-Deceuninck",
+        "position": 1
+      },
+      {
+        "name": "Caleb Ewan",
+        "team": "Lotto Dstny",
+        "position": 2
+      },
+      {
+        "name": "Dylan Groenewegen",
+        "team": "BikeExchange-Jayco",
+        "position": 3
+      }
+    ],
+    "classification": {
+      "general": {
+        "leader": "Tadej Pogačar",
+        "team": "UAE Team Emirates",
+        "time": "84:28:17"
+      },
+      "points": {
+        "leader": "Jasper Philipsen",
+        "points": 510
+      },
+      "mountains": {
+        "leader": "Tadej Pogačar",
+        "points": 175
+      },
+      "young_rider": {
+        "leader": "Remco Evenepoel",
+        "time": "84:30:05"
+      }
+    },
+    "profile": {
+      "elevation_gain": 150,
+      "climbs": [],
+      "type": "Plat"
+    },
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 25,
+      "wind": "SW 10 km/h"
+    },
+    "average_speed": 44.8,
+    "time_gap": "0:00:00",
+    "start_time": "11:00",
+    "finish_time": "13:45"
+  }
 ]
