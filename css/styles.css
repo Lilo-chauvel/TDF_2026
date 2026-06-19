@@ -141,7 +141,7 @@ img {
 /* ---------- HERO ---------- */
 .index .hero {
   position: relative;
-  background: url('/assets/images/col_TDF.png') center/cover no-repeat;
+  background: url('./assets/images/col_TDF.png') center/cover no-repeat;
   overflow: hidden;
   padding: 210px 40px;
   text-align: center;

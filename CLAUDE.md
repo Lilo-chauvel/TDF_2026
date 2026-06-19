@@ -55,7 +55,7 @@ This is a static site with no build process required. Simply serve the files dir
 ## Key Files and Directories
 - `index.html`: Main entry point with navigation
 - `pages/etape.html`: Template for stage pages
-- `js/script-etape.js`: Client-side routing logic
+- `js/script.js`: Client-side routing logic
 - `data/detail-etapes.json`: Stage data source
 - `css/styles.css`: Shared styling
 - `scripts/fetch_etapes_json.py`: Data fetching script
