@@ -10,7 +10,7 @@ function $(id) {
 // Charge le fichier JSON qui contient toutes les étapes
 async function loadStages() {
   try {
-    const response = await fetch("/data/detail-etapes.json");
+    const response = await fetch("./data/detail-etapes.json");
 
     // Si le fichier n'est pas trouvé ou erreur serveur
     if (!response.ok) {

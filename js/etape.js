@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function loadEtapesData() {
     try {
-      const response = await fetch("/data/detail-etapes.json");
+      const response = await fetch("./data/detail-etapes.json");
       if (!response.ok) throw new Error(`Erreur HTTP : ${response.status}`);
       return await response.json();
     } catch (error) {
