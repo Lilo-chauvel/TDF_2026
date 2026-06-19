@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Étape - Départ Arrivée</title>
+    <title id="page-title">Étape - Départ Arrivée</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="/css/variables.css" />
     <link rel="stylesheet" href="/css/etape_style.css" />
     <link rel="stylesheet" href="/css/styles.css" />
@@ -28,53 +30,36 @@
             <div class="hero-content wrap">
                 <div class="stage-meta">
                     <a href="index.html#stages">← Retour au programme</a>
-                    <span>Étape 1</span>
-                    <span>27 juin</span>
+                    <span id="stage-number-top">Étape 1</span>
+                    <span id="stage-date-top">27 juin</span>
                 </div>
 
                 <h1 class="stage-title">
-                    <span class="yellow">Depart</span><br>
-                    <span>→ Arrivee</span>
+                    <span class="yellow" id="stage-depart-title">Depart</span><br>
+                    <span>→ <span id="stage-arrivee-title">Arrivee</span></span>
                 </h1>
 
-                <div class="stage-type">Plaine</div>
+                <div class="stage-type" id="stage-type-badge">Plaine</div>
 
                 <div class="stats">
                     <div class="stat-block">
-                        <div class="stat-value">165 km</div>
+                        <div class="stat-value" id="stage-distance">165 km</div>
                         <div class="stat-label">Distance</div>
                     </div>
                     <div class="stat-block">
-                        <div class="stat-value">1 200 m</div>
+                        <div class="stat-value" id="stage-denivele">1 200 m</div>
                         <div class="stat-label">Dénivelé +</div>
                     </div>
                     <div class="stat-block">
-                        <div class="stat-value">0</div>
-                        <div class="stat-label">Cols</div>
+                        <div class="stat-value" id="stage-type-short">Plaine</div>
+                        <div class="stat-label">Type</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <nav class="stages-nav" aria-label="Navigation des étapes">
-            <a href="#" class="stage-item active">1</a>
-            <a href="#" class="stage-item">2</a>
-            <a href="#" class="stage-item">3</a>
-            <a href="#" class="stage-item">4</a>
-            <a href="#" class="stage-item">5</a>
-            <a href="#" class="stage-item"><img src="assets/icons/lit.png" alt="icon lit"></a>
-            <a href="#" class="stage-item">7</a>
-            <a href="#" class="stage-item">8</a>
-            <a href="#" class="stage-item">9</a>
-            <a href="#" class="stage-item">10</a>
-            <a href="#" class="stage-item">11</a>
-            <a href="#" class="stage-item">12</a>
-            <a href="#" class="stage-item">13</a>
-            <a href="#" class="stage-item">14</a>
-            <a href="#" class="stage-item"><img src="assets/icons/lit.png" alt="icon lit"></a>
-            <a href="#" class="stage-item">16</a>
-            <a href="#" class="stage-item">17</a>
-            <a href="#" class="stage-item">18</a>
+        <nav class="stages-nav" aria-label="Navigation des étapes" id="stages-nav">
+            <!-- Généré dynamiquement -->
         </nav>
     </header>
 
@@ -88,13 +73,16 @@
                     </div>
 
                     <div class="profile-chart">
-                        <img src="assets/etapes/1.png" alt="Profil étape" class="asset-link">
+                        <div class="profile-chart">
+                            <img id="stage-profile-image" src="/assets/etapes/1.png" alt="Profil étape"
+                                class="asset-link">
+                        </div>
                     </div>
 
                     <div class="profile-labels">
-                        <span>BARCELONE</span>
-                        <span>83 KM</span>
-                        <span>BARCELONE</span>
+                        <span id="stage-depart-legend">BARCELONE</span>
+                        <span id="stage-distance-legend">83 KM</span>
+                        <span id="stage-arrivee-legend">BARCELONE</span>
                     </div>
                 </article>
 
@@ -103,29 +91,13 @@
                         <h2>POINTS CLÉS</h2>
                     </div>
 
-                    <div class="key-points">
+                    <div class="key-points" id="key-points-list">
                         <div class="point-row">
                             <div class="point-left">
                                 <span class="km">km 42</span>
                                 <p>SPRINT INTERMÉDIAIRE</p>
                             </div>
-                            <img src="assets/icons/sprint.png" alt="éclaire" class="icon-link icon-blue">
-                        </div>
-
-                        <div class="point-row">
-                            <div class="point-left">
-                                <span class="km">km 111</span>
-                                <p>SPRINT INTERMÉDIAIRE</p>
-                            </div>
-                            <img src="assets/icons/sprint.png" alt="éclaire" class="icon-link icon-blue">
-                        </div>
-
-                        <div class="point-row">
-                            <div class="point-left">
-                                <span class="km">km 165</span>
-                                <p>ARRIVÉE — BARCELONE</p>
-                            </div>
-                            <img src="assets/icons/arrive.png" alt="Arrivée" class="icon-link icon-yellow">
+                            <img src="assets/icons/sprint.png" alt="Sprint" class="icon-link icon-blue">
                         </div>
                     </div>
                 </article>
@@ -135,26 +107,12 @@
                         <h2>FAVORIS</h2>
                     </div>
 
-                    <div class="favorites-grid">
+                    <div class="favorites-grid" id="favorites-grid">
                         <div class="favorite-card">
                             <div class="rider-badge">AL</div>
                             <h3>LOREM IPSUM</h3>
                             <p>TEAM ALPHA</p>
                             <div class="rank-chip">★ Favori</div>
-                        </div>
-
-                        <div class="favorite-card">
-                            <div class="rider-badge">BM</div>
-                            <h3>DOLOR SIT</h3>
-                            <p>TEAM BETA</p>
-                            <div class="rank-number">2</div>
-                        </div>
-
-                        <div class="favorite-card">
-                            <div class="rider-badge">CR</div>
-                            <h3>AMET CON</h3>
-                            <p>TEAM OMEGA</p>
-                            <div class="rank-number">3</div>
                         </div>
                     </div>
                 </article>
@@ -164,18 +122,10 @@
                         <h2>ANALYSE TACTIQUE</h2>
                     </div>
 
-                    <div class="analysis-text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-
-                        <p>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
-                            natus error sit voluptatem accusantium doloremque laudantium.
+                    <div class="analysis-text" id="analysis-text">
+                        <p id="stage-analysis">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
                         </p>
                     </div>
                 </article>
@@ -188,12 +138,13 @@
                     </div>
 
                     <div class="info-list">
-                        <div class="info-row"><span>TYPE</span><strong>PLAINE</strong></div>
-                        <div class="info-row"><span>DISTANCE</span><strong>165 KM</strong></div>
-                        <div class="info-row"><span>DÉNIVELÉ +</span><strong>1 200 M</strong></div>
-                        <div class="info-row"><span>DÉPART</span><strong>BARCELONE</strong></div>
-                        <div class="info-row"><span>ARRIVÉE</span><strong>BARCELONE</strong></div>
-                        <div class="info-row"><span>DATE</span><strong>27 JUIN</strong></div>
+                        <div class="info-row"><span>TYPE</span><strong id="info-type">PLAINE</strong></div>
+                        <div class="info-row"><span>DISTANCE</span><strong id="info-distance">165 KM</strong></div>
+                        <div class="info-row"><span>DÉNIVELÉ +</span><strong id="info-denivele">1 200 M</strong></div>
+                        <div class="info-row"><span>DÉPART</span><strong id="info-depart">BARCELONE</strong></div>
+                        <div class="info-row"><span>ARRIVÉE</span><strong id="info-arrivee">BARCELONE</strong></div>
+                        <div class="info-row"><span>DATE</span><strong id="info-date">27 JUIN</strong></div>
+                        <div class="info-row"><span>ÉTAPE</span><strong id="info-etape">1</strong></div>
                     </div>
                 </article>
 
@@ -203,29 +154,29 @@
                     </div>
 
                     <div class="weather-main">
-                        <img src="/assets/icons/meteo/nuage_soleil.png" alt="icon nuage">
+                        <img src="/assets/icons/meteo/nuage_soleil.png" alt="icon nuage" id="weather-main-icon">
                         <div>
-                            <strong>22°C</strong>
-                            <span>PARTIELLEMENT NUAGEUX</span>
+                            <strong id="weather-temp">22°C</strong>
+                            <span id="weather-label">PARTIELLEMENT NUAGEUX</span>
                         </div>
                     </div>
 
                     <div class="weather-grid">
                         <div class="weather-box">
                             <img src="/assets/icons/meteo/vent.png" alt="vent" class="icon-link">
-                            <strong>18 km/h</strong>
+                            <strong id="weather-wind">18 km/h</strong>
                             <span>VENT</span>
                         </div>
 
                         <div class="weather-box">
                             <img src="assets/icons/meteo/pluie.png" alt="pluie" class="icon-link">
-                            <strong>36%</strong>
+                            <strong id="weather-humidity">36%</strong>
                             <span>HUMIDITÉ</span>
                         </div>
 
                         <div class="weather-box">
                             <img src="assets/icons/meteo/termomètre.png" alt="termomètre" class="icon-link">
-                            <strong>14°C</strong>
+                            <strong id="weather-min">14°C</strong>
                             <span>MIN</span>
                         </div>
                     </div>
@@ -233,7 +184,8 @@
             </aside>
         </div>
     </section>
-    </main>
+
+    <script src="/js/script.js" defer></script>
 </body>
 
 </html>
