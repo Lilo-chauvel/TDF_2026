@@ -63,7 +63,7 @@ function createDots(count) {
 // Crée une carte d'étape normale
 function createStageCard(stage) {
   const link = document.createElement("a");
-  link.href = `/etape.html?id=${stage.etape}`;
+  link.href = `./etape.html?id=${stage.etape}`;
 
   const card = document.createElement("div");
   card.className = "stage-card";
