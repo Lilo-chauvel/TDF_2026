@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const profileImage = $("stage-profile-image");
     if (profileImage) {
-      profileImage.src = `/assets/etapes/${stage.etape}.png`;
+      profileImage.src = `./assets/etapes/${stage.etape}.png`;
       profileImage.alt = `Profil de l'étape ${stage.etape}`;
     }
 
