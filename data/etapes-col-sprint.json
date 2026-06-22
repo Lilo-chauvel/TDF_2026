@@ -1,0 +1,688 @@
+[
+    {
+        "etape": "1",
+        "date": "04/07/2026",
+        "depart": "Barcelone",
+        "arrivee": "Barcelone",
+        "distance": "19.6 km",
+        "type": "C.l.m par équipe",
+        "dénivelé": "200 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": [
+                {
+                    "nom": "Côte du Stade Olympique de Montjuïc",
+                    "km": "19.6",
+                    "altitude": "104 m",
+                    "longueur": "0,8 km",
+                    "pente": "7%"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "2",
+        "date": "05/07/2026",
+        "depart": "Tarragone",
+        "arrivee": "Barcelone",
+        "distance": "168.5 km",
+        "type": "Accidentée",
+        "dénivelé": "2500 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "Viladecans",
+                    "km": "83.6"
+                }
+            ],
+            "cols": [
+                {
+                    "nom": "Côte de Begues",
+                    "categorie": "2",
+                    "km": "94.2",
+                    "altitude": "399 m",
+                    "longueur": "6,1 km",
+                    "pente": "6.5%"
+                },
+                {
+                    "nom": "Côte du Château de Montjuïc",
+                    "categorie": "3",
+                    "km": "141.6",
+                    "altitude": "163 m",
+                    "longueur": "1,6 km",
+                    "pente": "9.3%"
+                },
+                {
+                    "nom": "Côte du Château de Montjuïc",
+                    "categorie": "3",
+                    "km": "153.8",
+                    "altitude": "163 m",
+                    "longueur": "1,6 km",
+                    "pente": "9.3%"
+                },
+                {
+                    "nom": "Côte du Château de Montjuïc",
+                    "categorie": "3",
+                    "km": "166",
+                    "altitude": "163 m",
+                    "longueur": "1,6 km",
+                    "pente": "9.3%"
+                }
+            ],
+            "cote": [
+                {
+                    "nom": "Côte de Begues",
+                    "km": "94.2",
+                    "altitude": "399 m",
+                    "longueur": "6,1 km",
+                    "pente": "6.5%"
+                },
+                {
+                    "nom": "Côte du Château de Montjuïc",
+                    "km": "141.6",
+                    "altitude": "163 m",
+                    "longueur": "1,6 km",
+                    "pente": "9.3%"
+                },
+                {
+                    "nom": "Côte du Château de Montjuïc",
+                    "km": "153.8",
+                    "altitude": "163 m",
+                    "longueur": "1,6 km",
+                    "pente": "9.3%"
+                },
+                {
+                    "nom": "Côte du Château de Montjuïc",
+                    "km": "166",
+                    "altitude": "163 m",
+                    "longueur": "1,6 km",
+                    "pente": "9.3%"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "3",
+        "date": "06/07/2026",
+        "depart": "Granollers",
+        "arrivee": "Les Angles",
+        "distance": "195.9 km",
+        "type": "Montagne",
+        "dénivelé": "3850 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "Campdevànol",
+                    "km": "98.4"
+                }
+            ],
+            "cols": [
+                {
+                    "nom": "Col de Toses",
+                    "categorie": "1",
+                    "km": "127.7",
+                    "altitude": "1778 m",
+                    "longueur": "9,3 km",
+                    "pente": "6.5%"
+                }
+            ],
+            "cote": [
+                {
+                    "nom": "Côte de Saint Feliu de Codines",
+                    "km": "17.2",
+                    "altitude": "622 m",
+                    "longueur": "7,6 km",
+                    "pente": "4.5%"
+                },
+                {
+                    "nom": "Col du Calvaire",
+                    "km": "172.3",
+                    "altitude": "1836 m",
+                    "longueur": "11,4 km",
+                    "pente": "4.1%",
+                    "categorie": "3"
+                },
+                {
+                    "nom": "Les Angles",
+                    "km": "195.9",
+                    "altitude": "1794 m",
+                    "longueur": "1,8 km",
+                    "pente": "6.5%",
+                    "categorie": "3"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "4",
+        "date": "07/07/2026",
+        "depart": "Carcassonne",
+        "arrivee": "Foix",
+        "distance": "181.9 km",
+        "type": "Accidentée",
+        "dénivelé": "2700 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "Quillan",
+                    "km": "93.4"
+                }
+            ],
+            "cols": [
+                {
+                    "nom": "Col de Bedos",
+                    "categorie": "4",
+                    "km": "48.2",
+                    "altitude": "485 m",
+                    "longueur": "3,4 km",
+                    "pente": "4.4%"
+                },
+                {
+                    "nom": "Col du Paradis",
+                    "categorie": "3",
+                    "km": "64.9",
+                    "altitude": "622 m",
+                    "longueur": "5,9 km",
+                    "pente": "4.1%"
+                },
+                {
+                    "nom": "Col de Coudons",
+                    "categorie": "2",
+                    "km": "104.9",
+                    "altitude": "883 m",
+                    "longueur": "10,8 km",
+                    "pente": "5.5%"
+                },
+                {
+                    "nom": "Col de Montségur",
+                    "categorie": "2",
+                    "km": "146.7",
+                    "altitude": "1059 m",
+                    "longueur": "6,9 km",
+                    "pente": "6.6%"
+                }
+            ],
+            "cote": []
+        }
+    },
+    {
+        "etape": "5",
+        "date": "08/07/2026",
+        "depart": "Lannemezan",
+        "arrivee": "Pau",
+        "distance": "158.3 km",
+        "type": "Plat",
+        "dénivelé": "1600 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "Vic-en-Bigorre",
+                    "km": "112.9"
+                }
+            ],
+            "cols": [],
+            "cote": [
+                {
+                    "nom": "Côte de Baleix",
+                    "km": "132.7",
+                    "altitude": "348 m",
+                    "longueur": "1 km",
+                    "pente": "8.8%",
+                    "categorie": "3"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "6",
+        "date": "09/07/2026",
+        "depart": "Pau",
+        "arrivee": "Gavarnie-Gèdre",
+        "distance": "186.2 km",
+        "type": "Montagne",
+        "dénivelé": "4100 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "Pouzac",
+                    "km": "126.1"
+                }
+            ],
+            "cols": [
+                {
+                    "nom": "Col d'Aspin",
+                    "categorie": "1",
+                    "km": "118.1",
+                    "altitude": "1489 m",
+                    "longueur": "12 km",
+                    "pente": "6.5%"
+                },
+                {
+                    "nom": "Col du Tourmalet",
+                    "categorie": "HC",
+                    "km": "147.8",
+                    "altitude": "2115 m",
+                    "longueur": "17.1 km",
+                    "pente": "7.3%"
+                }
+            ],
+            "cote": [
+                {
+                    "nom": "Côte de Loucrup",
+                    "km": "50.9",
+                    "altitude": "528 m",
+                    "longueur": "2 km",
+                    "pente": "7.1%",
+                    "categorie": "4"
+                },
+                {
+                    "nom": "Côte de Mauvezin",
+                    "km": "77.3",
+                    "altitude": "518 m",
+                    "longueur": "3 km",
+                    "pente": "6.8%",
+                    "categorie": "3"
+                },
+                {
+                    "nom": "Gavarnie-Gèdre",
+                    "km": "186.2",
+                    "altitude": "1380 m",
+                    "longueur": "18.7 km",
+                    "pente": "3.7%",
+                    "categorie": "2"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "7",
+        "date": "10/07/2026",
+        "depart": "Hagetmau",
+        "arrivee": "Bordeaux",
+        "distance": "175.1 km",
+        "type": "Plat",
+        "dénivelé": "850 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "LANDIRAS",
+                    "km": "120.3"
+                }
+            ],
+            "cols": [],
+            "cote": [
+                {
+                    "nom": "Côte de Béguey",
+                    "km": "137.3",
+                    "altitude": "86 m",
+                    "longueur": "1,2 km",
+                    "pente": "4.4%",
+                    "categorie": "4"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "8",
+        "date": "11/07/2026",
+        "depart": "Périgueux",
+        "arrivee": "Bergerac",
+        "distance": "180.4 km",
+        "type": "Plat",
+        "dénivelé": "1150 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "SAINT-CYPRIEN",
+                    "km": "122.8"
+                }
+            ],
+            "cols": [],
+            "cote": [
+                {
+                    "nom": "Côte de Domme",
+                    "km": "102.6",
+                    "altitude": "216 m",
+                    "longueur": "3,7 km",
+                    "pente": "3.3%",
+                    "categorie": "4"
+                },
+                {
+                    "nom": "Côte du Buisson-de-Cadouin",
+                    "km": "140.4",
+                    "altitude": "191 m",
+                    "longueur": "2,2 km",
+                    "pente": "5.3%",
+                    "categorie": "4"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "9",
+        "date": "12/07/2026",
+        "depart": "Malemort",
+        "arrivee": "Ussel",
+        "distance": "185.5 km",
+        "type": "Accidentée",
+        "dénivelé": "3300 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "BEYNAT",
+                    "km": "44.9"
+                }
+            ],
+            "cols": [],
+            "cote": [
+                {
+                    "nom": "Côte de Naves",
+                    "km": "77",
+                    "altitude": "410 m",
+                    "longueur": "2,3 km",
+                    "pente": "7.4%",
+                    "categorie": "3"
+                },
+                {
+                    "nom": "Suc au May",
+                    "km": "105",
+                    "altitude": "903 m",
+                    "longueur": "3,8 km",
+                    "pente": "7.5%",
+                    "categorie": "2"
+                },
+                {
+                    "nom": "Côte de la Croix du Pey",
+                    "km": "129.4",
+                    "altitude": "825 m",
+                    "longueur": "4,8 km",
+                    "pente": "6%",
+                    "categorie": "3"
+                },
+                {
+                    "nom": "Mont Bessou",
+                    "km": "161",
+                    "altitude": "977 m",
+                    "longueur": "0,9 km",
+                    "pente": "1.2%",
+                    "categorie": "4"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "10",
+        "date": "14/07/2026",
+        "depart": "Aurillac",
+        "arrivee": "Le Lioran",
+        "distance": "166.6 km",
+        "type": "Montagne",
+        "dénivelé": "3800 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [
+                {
+                    "nom": "Col de la Griffoul",
+                    "categorie": "2",
+                    "km": "97.3",
+                    "altitude": "1336 m",
+                    "longueur": "5,9 km",
+                    "pente": "6.7%"
+                },
+                {
+                    "nom": "Col de Prat de Bouc",
+                    "categorie": "3",
+                    "km": "103.8",
+                    "altitude": "1392 m",
+                    "longueur": "3,1 km",
+                    "pente": "6.5%"
+                },
+                {
+                    "nom": "Puy Mary - Pas de Peyrol",
+                    "categorie": "1",
+                    "km": "135.7",
+                    "altitude": "1589 m",
+                    "longueur": "7,8 km",
+                    "pente": "6%"
+                },
+                {
+                    "nom": "Col de Pertus",
+                    "categorie": "1",
+                    "km": "152.1",
+                    "altitude": "1309 m",
+                    "longueur": "4,4 km",
+                    "pente": "8.5%"
+                },
+                {
+                    "nom": "Col de Font de Cère",
+                    "categorie": "3",
+                    "km": "163.9",
+                    "altitude": "1294 m",
+                    "longueur": "3,1 km",
+                    "pente": "5.8%"
+                }
+            ],
+            "cote": [
+                {
+                    "nom": "Côte de Pailherols",
+                    "km": "68",
+                    "altitude": "1043 m",
+                    "longueur": "3 km",
+                    "pente": "7.2%",
+                    "categorie": "3"
+                },
+                {
+                    "nom": "Côte de Murat",
+                    "km": "118.8",
+                    "altitude": "1193 m",
+                    "longueur": "5,2 km",
+                    "pente": "5.3%",
+                    "categorie": "3"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "11",
+        "date": "15/07/2026",
+        "depart": "Vichy",
+        "arrivee": "Nevers",
+        "distance": "161.3 km",
+        "type": "Plat",
+        "dénivelé": "1400 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "SAINT-POURÇAIN-SUR-SIOULE",
+                    "km": "27.8"
+                }
+            ],
+            "cols": [],
+            "cote": [
+                {
+                    "nom": "Côte de Billonnière",
+                    "km": "32.9",
+                    "altitude": "300 m",
+                    "longueur": "1,1 km",
+                    "pente": "5.8%",
+                    "categorie": "4"
+                },
+                {
+                    "nom": "Côte de Billy-Chevannes",
+                    "km": "123.4",
+                    "altitude": "360 m",
+                    "longueur": "1,5 km",
+                    "pente": "5%",
+                    "categorie": "4"
+                }
+            ]
+        }
+    },
+    {
+        "etape": "12",
+        "date": "16/07/2026",
+        "depart": "Circuit Nevers Magny-Cours",
+        "arrivee": "Chalon-sur-Saône",
+        "distance": "179.1 km",
+        "type": "Plat",
+        "dénivelé": "1800 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [
+                {
+                    "lieu": "",
+                    "km": "45.3"
+                }
+            ],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "13",
+        "date": "17/07/2026",
+        "depart": "Dole",
+        "arrivee": "Belfort",
+        "distance": "205.8 km",
+        "type": "Accidentée",
+        "dénivelé": "2400 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "14",
+        "date": "18/07/2026",
+        "depart": "Mulhouse",
+        "arrivee": "Le Markstein Fellering",
+        "distance": "155.3 km",
+        "type": "Montagne",
+        "dénivelé": "3800 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "15",
+        "date": "19/07/2026",
+        "depart": "Champagnole",
+        "arrivee": "Plateau de Solaison",
+        "distance": "183.9 km",
+        "type": "Montagne",
+        "dénivelé": "3950 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "16",
+        "date": "21/07/2026",
+        "depart": "Évian-les-Bains",
+        "arrivee": "Thonon-les-Bains",
+        "distance": "26.1 km",
+        "type": "C.l.m individuel",
+        "dénivelé": "500 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "17",
+        "date": "22/07/2026",
+        "depart": "Chambery",
+        "arrivee": "Voiron",
+        "distance": "174.7 km",
+        "type": "Plat",
+        "dénivelé": "2200 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "18",
+        "date": "23/07/2026",
+        "depart": "Voiron",
+        "arrivee": "Orcières-Merlette",
+        "distance": "185.2 km",
+        "type": "Montagne",
+        "dénivelé": "3900 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "19",
+        "date": "24/07/2026",
+        "depart": "Gap",
+        "arrivee": "Alpe d'Huez",
+        "distance": "127.9 km",
+        "type": "Montagne",
+        "dénivelé": "3800 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "20",
+        "date": "25/07/2026",
+        "depart": "Le Bourg d'Oisans",
+        "arrivee": "Alpe d'Huez",
+        "distance": "170.9 km",
+        "type": "Montagne",
+        "dénivelé": "5450 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    },
+    {
+        "etape": "21",
+        "date": "26/07/2026",
+        "depart": "Thoiry",
+        "arrivee": "Paris Champs-Élysées",
+        "distance": "133 km",
+        "type": "Plat",
+        "dénivelé": "1000 m",
+        "profil": "/.asserts/etapes/{etape}.png",
+        "point": {
+            "sprints": [],
+            "cols": [],
+            "cote": []
+        }
+    }
+]

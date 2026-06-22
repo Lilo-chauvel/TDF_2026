@@ -7,7 +7,10 @@
     "distance": "19.6 km",
     "type": "C.l.m par équipe",
     "dénivelé": "200 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "2",
@@ -17,7 +20,10 @@
     "distance": "168.5 km",
     "type": "Accidentée",
     "dénivelé": "2500 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "3",
@@ -27,7 +33,10 @@
     "distance": "195.9 km",
     "type": "Montagne",
     "dénivelé": "3850 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "4",
@@ -37,7 +46,10 @@
     "distance": "181.9 km",
     "type": "Accidentée",
     "dénivelé": "2700 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "5",
@@ -47,7 +59,10 @@
     "distance": "158.3 km",
     "type": "Plat",
     "dénivelé": "1600 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "6",
@@ -57,7 +72,10 @@
     "distance": "186.2 km",
     "type": "Montagne",
     "dénivelé": "4100 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "7",
@@ -67,7 +85,10 @@
     "distance": "175.1 km",
     "type": "Plat",
     "dénivelé": "850 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "8",
@@ -77,7 +98,10 @@
     "distance": "180.4 km",
     "type": "Plat",
     "dénivelé": "1150 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "9",
@@ -87,7 +111,10 @@
     "distance": "185.5 km",
     "type": "Accidentée",
     "dénivelé": "3300 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "10",
@@ -97,7 +124,10 @@
     "distance": "166.6 km",
     "type": "Montagne",
     "dénivelé": "3800 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "11",
@@ -107,7 +137,10 @@
     "distance": "161.3 km",
     "type": "Plat",
     "dénivelé": "1400 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "12",
@@ -117,7 +150,10 @@
     "distance": "179.1 km",
     "type": "Plat",
     "dénivelé": "1800 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "13",
@@ -127,7 +163,10 @@
     "distance": "205.8 km",
     "type": "Accidentée",
     "dénivelé": "2400 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "14",
@@ -137,7 +176,10 @@
     "distance": "155.3 km",
     "type": "Montagne",
     "dénivelé": "3800 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "15",
@@ -147,7 +189,10 @@
     "distance": "183.9 km",
     "type": "Montagne",
     "dénivelé": "3950 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "16",
@@ -157,7 +202,10 @@
     "distance": "26.1 km",
     "type": "C.l.m individuel",
     "dénivelé": "500 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "17",
@@ -167,7 +215,10 @@
     "distance": "174.7 km",
     "type": "Plat",
     "dénivelé": "2200 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "18",
@@ -177,7 +228,10 @@
     "distance": "185.2 km",
     "type": "Montagne",
     "dénivelé": "3900 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "19",
@@ -187,7 +241,10 @@
     "distance": "127.9 km",
     "type": "Montagne",
     "dénivelé": "3800 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "20",
@@ -197,7 +254,10 @@
     "distance": "170.9 km",
     "type": "Montagne",
     "dénivelé": "5450 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   },
   {
     "etape": "21",
@@ -207,6 +267,9 @@
     "distance": "133 km",
     "type": "Plat",
     "dénivelé": "1000 m",
-    "profil": "/.asserts/etapes/{etape}.png"
+    "profil": "/.asserts/etapes/{etape}.png",
+    "sprints":[],
+    "cols":[],
+    "cote":[]
   }
 ]

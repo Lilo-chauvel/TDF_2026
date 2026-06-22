@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function loadEtapesData() {
     try {
-      const response = await fetch("./data/detail-etapes.json");
+      const response = await fetch("./data/etapes-col-sprint.json");
       if (!response.ok) throw new Error(`Erreur HTTP : ${response.status}`);
       return await response.json();
     } catch (error) {
@@ -94,7 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
     (async () => {
       const meteoStage = await getWeatherForCity(`${stage.depart}`, formatDate(stage.date));
       const weatherStage = getWeatherSummary(meteoStage.weather);
-      console.log(weatherStage);
 
       // Météo : champs absents du JSON pour l'instant, on masque la section
       if (meteoStage) {
@@ -111,26 +110,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Sections optionnelles (absentes du JSON de base)
-    if (stage.pointsCles) renderPointsCles(stage.pointsCles);
-    if (stage.favoris) renderFavoris(stage.favoris);
-    if (stage.analyse) renderAnalyse(stage.analyse);
+
+    if (stage.point) {
+      renderPointsCles(stage.point)
+    };
+    if (stage.favoris) { renderFavoris(stage.favoris) };
+    if (stage.analyse) { renderAnalyse(stage.analyse) };
   }
 
   function renderPointsCles(points) {
     const container = $("key-points-list");
     if (!container) return;
     container.innerHTML = "";
-    points.forEach((point) => {
-      const row = document.createElement("div");
-      row.className = "point-row";
-      row.innerHTML = `
-        <div class="point-left">
-          <span class="km">${point.km}</span>
-          <p>${point.label}</p>
+    Object.keys(points).forEach((cle) => {
+      cle = cle;
+      points[cle].forEach((valeur, badCle) => {
+        if (cle == "cote" | cle == "cols") {
+          const row = document.createElement("div");
+          row.className = "point-row";
+          row.innerHTML = `
+          <div class="point-left">
+          <span class="km">${Math.round(valeur.km)} KM</span>
+          <p>${valeur.nom}</p>
         </div>
-        <img src="${point.icon}" alt="${point.iconAlt}" class="icon-link ${point.iconClass}">
       `;
-      container.appendChild(row);
+          container.appendChild(row);
+        } else {
+          console.log(valeur.lieu)
+          const row = document.createElement("div");
+          row.className = "point-row";
+          row.innerHTML = `
+          <div class="point-left">
+          <span class="km">${Math.round(valeur.km)} KM</span>
+          <p>${valeur.lieu}</p>
+          </div>
+          `;
+          container.appendChild(row);
+        }
+      });
     });
   }
 

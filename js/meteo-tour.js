@@ -158,5 +158,4 @@ export { getCityCoordinates, getWeather, getWeatherForCity, getAllStagesWeather,
 
 (async () => {
   const meteoStage = await getWeatherForCity("Valence", "2026-06-23");
-  console.log(meteoStage);
 })(); 
