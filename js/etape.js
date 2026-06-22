@@ -1,4 +1,4 @@
-import { getCityCoordinates, getWeather, getWeatherForCity, getAllStagesWeather } from "./meteo-tour.js";
+import { getCityCoordinates, getWeather, getWeatherForCity, getAllStagesWeather, getWeatherSummary } from "./meteo-tour.js";
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -92,28 +92,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     (async () => {
-      const meteoStage = await getWeatherForCity(`${stage.depart}`);
-      console.log(meteoStage);
+      const meteoStage = await getWeatherForCity(`${stage.depart}`, formatDate(stage.date));
+      const weatherStage = getWeatherSummary(meteoStage.weather);
+      console.log(weatherStage);
 
       // Météo : champs absents du JSON pour l'instant, on masque la section
       if (meteoStage) {
-        $("weather-temp").textContent = `${Math.round(meteoStage.weather.current.temperature_2m)} °C`;
-        //   $("weather-label").textContent = `${meteoStage.weather.current.temperature_2m} °C`;
-        $("weather-wind").textContent = `${Math.round(meteoStage.weather.current.wind_speed_10m)} km/h`;
-        $("weather-humidity").textContent = `${meteoStage.weather.current.relative_humidity_2m} %`;
-        let weatherMin = null;
-        let n = 0;
-        meteoStage.weather.hourly.temperature_2m
-          .forEach(x => {
-            if (!weatherMin) {
-              weatherMin = x;
-            } else if (x < weatherMin) {
-              weatherMin = x;
-            };
-          }
-          );
-        $("weather-min").textContent = `${weatherMin} °C`;
-        //   console.log("Accès aux données météo OK")
+        $("weather-temp").textContent = `${Math.round(weatherStage.tempMoyenne)} °C`;
+        $("weather-label").textContent = weatherStage.label;
+        $("weather-wind").textContent = `${Math.round(weatherStage.ventMoyen)} km/h`;
+        $("weather-humidity").textContent = `${weatherStage.humidite} %`;
+        $("weather-min").textContent = `${weatherStage.tempMin} °C`;
       } else {
         console.log("Erreur lors de la récupération des données de météo")
       }
@@ -188,6 +177,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fillStagePage(stage);
     renderStageNav(etapesData, stage.etape);
+  }
+
+  function formatDate(dateStr) {
+    // "25/07/2026" → "2026-07-25"
+    return dateStr.split("/").reverse().join("-");
   }
 
   initStagePage();
