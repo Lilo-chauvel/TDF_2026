@@ -1,3 +1,6 @@
+import { getCityCoordinates, getWeather, getWeatherForCity, getAllStagesWeather } from "./meteo-tour.js";
+
+
 document.addEventListener('DOMContentLoaded', () => {
 
   function $(id) {
@@ -53,6 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function fillStagePage(stage) {
+    // 
     document.title = `Étape ${stage.etape} - ${stage.depart} → ${stage.arrivee}`;
 
     $("stage-number-top").textContent = `Étape ${stage.etape}`;
@@ -86,14 +90,36 @@ document.addEventListener('DOMContentLoaded', () => {
     $("info-date").textContent = stage.date;
     $("info-etape").textContent = stage.etape;
 
-    // Météo : champs absents du JSON pour l'instant, on masque la section
-    if (stage.meteo) {
-      $("weather-temp").textContent = stage.meteo.temp;
-      $("weather-label").textContent = stage.meteo.label.toUpperCase();
-      $("weather-wind").textContent = stage.meteo.vent;
-      $("weather-humidity").textContent = stage.meteo.humidite;
-      $("weather-min").textContent = stage.meteo.min;
-    }
+
+    (async () => {
+      const meteoStage = await getWeatherForCity(`${stage.depart}`);
+      console.log(meteoStage);
+
+      // Météo : champs absents du JSON pour l'instant, on masque la section
+      if (meteoStage) {
+        $("weather-temp").textContent = `${Math.round(meteoStage.weather.current.temperature_2m)} °C`;
+        //   $("weather-label").textContent = `${meteoStage.weather.current.temperature_2m} °C`;
+        $("weather-wind").textContent = `${Math.round(meteoStage.weather.current.wind_speed_10m)} km/h`;
+        $("weather-humidity").textContent = `${meteoStage.weather.current.relative_humidity_2m} %`;
+        let weatherMin = null;
+        let n = 0;
+        meteoStage.weather.hourly.temperature_2m
+          .forEach(x => {
+            if (!weatherMin) {
+              weatherMin = x;
+            } else if (x < weatherMin) {
+              weatherMin = x;
+            };
+          }
+          );
+        $("weather-min").textContent = `${weatherMin} °C`;
+        //   console.log("Accès aux données météo OK")
+      } else {
+        console.log("Erreur lors de la récupération des données de météo")
+      }
+    })();
+
+
 
     // Sections optionnelles (absentes du JSON de base)
     if (stage.pointsCles) renderPointsCles(stage.pointsCles);
