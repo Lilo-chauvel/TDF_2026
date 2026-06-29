@@ -338,18 +338,18 @@ img {
 
 .intro-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
 }
 
 .index .card {
   background: #fff;
   border-radius: 10px;
-  padding: 28px 24px;
+  padding: clamp(20px, 3vw, 28px);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
-.card h3 {
+.index .card h3 {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 800;
@@ -359,7 +359,7 @@ img {
   margin-bottom: 12px;
 }
 
-.card p {
+.index .card p {
   font-size: 13.5px;
   line-height: 1.7;
   color: var(--text-gray);
@@ -372,7 +372,7 @@ img {
 
 .index .stage-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 18px;
 }
 
@@ -405,10 +405,13 @@ img {
 }
 
 .index .stage-route {
-  font-size: 15.5px;
+  font-size: clamp(13px, 2vw, 15.5px);
   font-weight: 800;
   margin-bottom: 14px;
   letter-spacing: 0.2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .index .stage-bottom {
@@ -529,7 +532,7 @@ img {
 
 .vision-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
 }
 
@@ -586,24 +589,6 @@ footer .wrap {
 }
 
 /* ---------- RESPONSIVE ---------- */
-@media (max-width:880px) {
-  .intro-cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .stage-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .vision-cards {
-    grid-template-columns: 1fr;
-  }
-
-  .hero h1 {
-    font-size: 46px;
-  }
-}
-
 @media (max-width:768px) {
   .hero h1 {
     font-size: 46px;
@@ -618,6 +603,18 @@ footer .wrap {
   .hero-sub {
     text-shadow: none;
   }
+
+  .intro {
+    padding: 64px 24px;
+  }
+
+  .stages {
+    padding: 64px 24px 72px;
+  }
+
+  .vision {
+    padding: 64px 24px 72px;
+  }
 }
 
 @media (max-width:600px) {
@@ -626,23 +623,24 @@ footer .wrap {
   }
 
   .index .stats {
-    gap: 20px;
+    gap: 16px;
   }
 
   .index .stats > div {
-    flex: 0 0 calc(50% - 20px);
+    flex: 0 0 calc(50% - 16px);
   }
 
-  .intro-cards {
-    grid-template-columns: 1fr;
-  }
-
-  .stage-grid {
-    grid-template-columns: 1fr;
+  .stat-num {
+    font-size: 30px;
   }
 
   .section-title {
     font-size: 28px;
+  }
+
+  .section-lede {
+    margin-bottom: 32px;
+    font-size: 14px;
   }
 
   .hero h1 {
@@ -651,11 +649,22 @@ footer .wrap {
 
   .hero-sub {
     font-size: 11px;
+    margin: 14px 0 24px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 12px;
+  }
+
+  .index .stage-card {
+    padding: 16px 18px;
   }
 
   footer .wrap {
     flex-direction: column;
     align-items: flex-start;
+    gap: 6px;
   }
 }
 
