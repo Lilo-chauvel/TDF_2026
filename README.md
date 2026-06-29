@@ -5,8 +5,9 @@ Un projet statique pour présenter et suivre les étapes du Tour de France 2026 
 ## Fonctionnalités
 
 - Frise chronologique interactive des 21 étapes du Tour de France 2026
-- Pages détaillées pour chaque étape avec informations sur le départ, l'arrivée, la distance et le type d'étape
+- Pages détaillées pour chaque étape avec informations sur le départ, l'arrivée, la distance, le type d'étape et les points clés de chaque course
 - Données structurées en JSON pour une maintenance facile
+- Données de météo récupéré via deux API : Nominatim et Open-Meteo
 - Design responsive compatible avec tous les appareils
 - Architecture modulaire et bien organisée
 
@@ -15,18 +16,19 @@ Un projet statique pour présenter et suivre les étapes du Tour de France 2026 
 ```
 /Tour-de-France-2026/
 ├── index.html # Page d'accueil avec la frise chronologique
-├── styles.css # Feuille de style principale
+├── etape.html # Page des étapes
 ├── js/
-│ └── script-etape.js # Script pour afficher les détails des étapes
+│ └── etape.js # Script des pages étapes
+│ └── index.js # Script de la page principale
+│ └── meteo-tour.js # Script qui gère les API liées à la météo
+├── css/
+│ └── styles.css # Feuille de style principale
+│ └── etapes_style.css # Feuille de style des étapes
+│ └── variables.css # Variables CSS
 ├── data/
-│ └── detail-etapes.json # Données structurées des 21 étapes
-├── pages/
-│ └── etape.html # Page détaillée pour chaque étape
-├── scripts/
-│ └── fetch_etapes_json.py # Script Python pour générer les données des étapes
-├── tests/
-│ └── test-site.sh # Script de test pour vérifier le fonctionnement du site
+│ └── etapes-col-sprint.json # Données structurées des 21 étapes
 ├── assets/
+│ ├── etapes/ # Profil des étapes
 │ ├── images/ # Images du projet
 │ └── icons/ # Icônes du projet
 └── README.md # Ce fichier
@@ -88,10 +90,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
   // 4. Récupération des données externes
-  fetch('../data/detail-etapes.json')
+  fetch('../data/etapes-col-sprint.json')
     .then(response => {
       if (!response.ok) {
-        throw new Error('Fichier detail-etapes.json non trouvé ou inaccessible');
+        throw new Error('Fichier etapes-col-sprint.json non trouvé ou inaccessible');
       }
       return response.json();
     })
@@ -117,14 +119,14 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => {
       console.error('Erreur lors du chargement des données :', error);
-      showError('Impossible de charger les données des étapes. Vérifiez que detail-etapes.json est présent.');
+      showError('Impossible de charger les données des étapes. Vérifiez que etapes-col-sprint.json est présent.');
     });
 });
 ```
 
 ### 4. Les données
 
-Le fichier `data/detail-etapes.json` contient toutes les informations sur les 21 étapes :
+Le fichier `data/etapes-col-sprint.json` contient toutes les informations sur les 21 étapes :
 
 ```json
 [
@@ -156,7 +158,7 @@ Voici le processus complet lorsqu'un utilisateur clique sur une étape :
 2. **Le navigateur charge** `pages/etape.html` (le template)
 3. **Le script `script-etape.js` s'exécute** après le chargement du DOM
 4. **Le script extrait** l'ID `5` de l'URL avec `URLSearchParams`
-5. **Le script fait une requête HTTP** vers `data/detail-etapes.json`
+5. **Le script fait une requête HTTP** vers `data/etapes-col-sprint.json`
 6. **Le script trouve** l'étape correspondante dans le tableau JSON
 7. **Le script met à jour** les éléments HTML avec les données de l'étape
 8. **L'utilisateur voit** les détails de l'étape 5

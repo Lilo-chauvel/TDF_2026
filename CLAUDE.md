@@ -7,14 +7,14 @@ This is a static web application for the Tour de France 2026 (TDF2026) that demo
 The application follows a client-side routing architecture:
 - **index.html**: Main entry point with navigation links
 - **pages/etape.html**: Dynamic page template for individual stage pages
-- **data/detail-etapes.json**: JSON data source containing stage information
+- **data/etapes-col-sprint.json**: JSON data source containing stage information
 - **js/script-etape.js**: JavaScript that handles client-side routing and page population
 - **css/styles.css**: Styles for both index and stage pages
 
 The routing works by:
 1. User clicks a link to `pages/etape.html?id=N` (where N is the stage number)
 2. JavaScript in script-etape.js reads the URL parameter
-3. JavaScript fetches the corresponding stage data from detail-etapes.json
+3. JavaScript fetches the corresponding stage data from etapes-col-sprint.json
 4. The page content is dynamically populated with the stage information
 
 ## Development Workflow
@@ -26,12 +26,6 @@ python3 -m http.server 8000
 ```
 Then navigate to `http://localhost:8000` in your browser.
 
-### Testing
-The project includes a shell script for testing the website functionality:
-```bash
-# Run the test suite
-bash tests/test-site.sh
-```
 
 ### Data Management
 The stage data is fetched from an external API using a Python script:
@@ -56,10 +50,9 @@ This is a static site with no build process required. Simply serve the files dir
 - `index.html`: Main entry point with navigation
 - `pages/etape.html`: Template for stage pages
 - `js/script.js`: Client-side routing logic
-- `data/detail-etapes.json`: Stage data source
+- `data/etapes-col-sprint.json`: Stage data source
 - `css/styles.css`: Shared styling
 - `scripts/fetch_etapes_json.py`: Data fetching script
-- `tests/test-site.sh`: Automated testing script
 - `.env`: Environment variables (API key)
 
 ## Important Notes

@@ -132,6 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="point-left">
           <span class="km">${Math.round(valeur.km)} KM</span>
           <p>${valeur.nom}</p>
+          <p>${valeur.altitude}</p>
         </div>
       `;
           container.appendChild(row);
