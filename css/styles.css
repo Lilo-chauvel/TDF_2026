@@ -664,6 +664,10 @@ footer .wrap {
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width:768px) {
+  .index .hero {
+    gap: 60px;
+  }
+
   .hero h1 {
     font-size: 46px;
   }
@@ -672,10 +676,18 @@ footer .wrap {
     font-size: 32px;
   }
 
+  .stages .section-title {
+    margin-bottom: 32px;
+  }
+
   .index .stat-num,
   .index .stat-label,
   .hero-sub {
     text-shadow: none;
+  }
+
+  .badge {
+    margin-bottom: 16px;
   }
 
   .intro {
@@ -743,6 +755,30 @@ footer .wrap {
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
+  }
+}
+
+@media (max-width:480px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .index .stats {
+    margin-top: 32px;
+    padding-top: 24px;
+  }
+
+  .stat-num {
+    font-size: 24px;
+  }
+
+  .index .stat-label {
+    font-size: 10px;
+  }
+
+  footer .wrap {
+    align-items: center;
+    text-align: center;
   }
 }
 
