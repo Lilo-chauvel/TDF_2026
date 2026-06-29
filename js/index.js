@@ -151,3 +151,27 @@ async function initStagesPage() {
 
 // On lance le script quand le HTML est prêt
 document.addEventListener("DOMContentLoaded", initStagesPage);
+
+// Menu hamburger mobile
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.getElementById("hamburger");
+  const overlay = document.getElementById("mobile-overlay");
+
+  if (!hamburger || !overlay) return;
+
+  hamburger.addEventListener("click", function () {
+    const isOpen = hamburger.classList.toggle("open");
+    overlay.classList.toggle("open");
+    hamburger.setAttribute("aria-expanded", isOpen);
+    document.body.style.overflow = isOpen ? "hidden" : "";
+  });
+
+  overlay.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () {
+      hamburger.classList.remove("open");
+      overlay.classList.remove("open");
+      hamburger.setAttribute("aria-expanded", "false");
+      document.body.style.overflow = "";
+    });
+  });
+});
