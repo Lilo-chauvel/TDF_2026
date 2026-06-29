@@ -169,22 +169,9 @@ img {
 }
 
 .etapes .hero {
-  background: var(--color-black);
+  background: var(--black);
   color: white;
-  min-height: var(--header-height);
-}
-
-.etapes .hero-content {
-  padding: 48px 32px;
-}
-
-.stage-meta {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 18px;
-
-  font-size: var(--fs-sm);
-  text-transform: uppercase;
+  min-height: auto;
 }
 
 .badge {
@@ -199,30 +186,7 @@ img {
   margin-bottom: 22px;
 }
 
-.stage-title {
-  font-family: var(--font-title);
-  font-size: var(--fs-xxl);
-  line-height: .9;
-}
 
-.stage-title .yellow {
-  color: var(--color-primary);
-}
-
-.stage-type {
-  margin-top: 20px;
-
-  display: inline-flex;
-  align-items: center;
-
-  background: #173120;
-  color: #7ae085;
-
-  padding: 8px 14px;
-  border-radius: 999px;
-
-  font-size: 12px;
-}
 
 .hero h1 {
   color: #fff;
@@ -292,12 +256,6 @@ img {
   text-align: center;
 }
 
-.etapes .stats {
-  display: flex;
-  gap: 48px;
-  margin-top: 40px;
-}
-
 .stat-num {
   color: #fff;
   font-family: 'Anton', sans-serif;
@@ -317,17 +275,6 @@ img {
   text-transform: uppercase;
   font-weight: 600;
   margin-top: 4px;
-}
-
-.etapes .stat-value {
-  font-size: 46px;
-  font-weight: 800;
-}
-
-.etapes .stat-label {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #8d8d8d;
 }
 
 /* ---------- INTRO ---------- */
@@ -431,20 +378,6 @@ img {
 
 .stages .section-title {
   margin-bottom: 56px;
-}
-
-.etapes .stage-item {
-  min-width: 70px;
-  text-align: center;
-  padding: 18px 0;
-  color: white;
-  font-size: 13px;
-}
-
-.etapes .stage-item.active {
-  background: var(--color-primary);
-  color: black;
-  font-weight: 700;
 }
 
 .dots {

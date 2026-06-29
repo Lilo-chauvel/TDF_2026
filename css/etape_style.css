@@ -573,6 +573,135 @@ a {
   text-transform: uppercase;
 }
 
+/* ========================================
+   Styles pour etape.html (hero + nav)
+   ======================================== */
+
+.stage-hero {
+  background:
+    radial-gradient(circle at 82% 42%, rgba(245, 197, 24, 0.12), transparent 18%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.58) 0%, rgba(0, 0, 0, 0.92) 100%),
+    var(--black);
+  color: #fff;
+  min-height: auto;
+}
+
+.hero-content {
+  padding: 48px 24px 56px;
+}
+
+.stage-meta {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a9a9a9;
+}
+
+.stage-meta a {
+  color: #d0d0d0;
+  transition: color .15s ease;
+}
+
+.stage-meta a:hover {
+  color: var(--yellow);
+}
+
+.stage-meta span:nth-child(2) {
+  color: var(--yellow);
+}
+
+.stage-title {
+  font-family: 'Anton', sans-serif;
+  font-size: clamp(54px, 8vw, 92px);
+  line-height: .9;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.stage-title .yellow {
+  color: var(--yellow);
+}
+
+.stage-type {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  background: var(--green-bg);
+  color: var(--green-text);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+}
+
+.etapes .stats {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-top: 42px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.stat-block {
+  min-width: 110px;
+}
+
+.etapes .stat-value {
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1;
+}
+
+.etapes .stat-label {
+  margin-top: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #8f8f8f;
+}
+
+.stages-nav {
+  background: #111;
+  border-top: 1px solid #222;
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  align-items: center;
+}
+
+.stage-item {
+  min-width: 70px;
+  text-align: center;
+  padding: 18px 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-right: 1px solid rgba(255, 255, 255, 0.03);
+  transition: background .15s ease, color .15s ease;
+}
+
+.stage-item:hover {
+  background: #1b1b1b;
+}
+
+.stage-item.active {
+  background: var(--yellow);
+  color: #111;
+}
+
 /* Responsive */
 @media (max-width: 980px) {
   .layout {
@@ -610,5 +739,13 @@ a {
   .stage-nav {
     width: max-content;
     min-width: 100%;
+  }
+
+  .hero-content {
+    padding: 36px 24px 40px;
+  }
+
+  .etapes .stats {
+    gap: 28px;
   }
 }
