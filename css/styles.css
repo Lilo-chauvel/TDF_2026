@@ -143,7 +143,7 @@ img {
   position: relative;
   background: url('./../assets/images/col_TDF.png') center/cover no-repeat;
   overflow: hidden;
-  padding: 210px 40px;
+  padding: clamp(100px, 15vw, 210px) 24px;
   text-align: center;
   gap: 100px;
   display: flex;
@@ -279,11 +279,17 @@ img {
   margin-top: 56px;
   padding-top: 36px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
-  grid-template-columns: repeat(4, 1fr);
   max-width: 920px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.index .stats > div {
+  flex: 0 0 auto;
+  text-align: center;
 }
 
 .etapes .stats {
@@ -598,14 +604,33 @@ footer .wrap {
   }
 }
 
+@media (max-width:768px) {
+  .hero h1 {
+    font-size: 46px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .index .stat-num,
+  .index .stat-label,
+  .hero-sub {
+    text-shadow: none;
+  }
+}
+
 @media (max-width:600px) {
   .nav-links {
     display: none;
   }
 
-  .stats {
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 28px;
+  .index .stats {
+    gap: 20px;
+  }
+
+  .index .stats > div {
+    flex: 0 0 calc(50% - 20px);
   }
 
   .intro-cards {
@@ -617,11 +642,15 @@ footer .wrap {
   }
 
   .section-title {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .hero h1 {
     font-size: 36px;
+  }
+
+  .hero-sub {
+    font-size: 11px;
   }
 
   footer .wrap {
